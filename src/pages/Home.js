@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../styles/Home.css'; // Ensure this path is correct
+import '../styles/Home.css';
 
 function Home() {
   const [query, setQuery] = useState('');
@@ -36,7 +36,7 @@ function Home() {
       console.log('Request URL:', url); // Log the request URL
       const response = await fetch(url, {
         headers: {
-          Authorization: 'Key GPW6LA6POJGFPTBC7INJNUAOHM',
+          Authorization: 'Key {Private}', // Key is private while development continues
         },
       });
       const data = await response.json();
