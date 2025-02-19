@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Fairway Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Fairway Finder Logo](public/assets/ff-primary.png)
 
-## Available Scripts
+Fairway Finder is a web application designed to help golf enthusiasts find golf courses near their location, review them, and check out other golfers reviews. The application leverages the Golf Course API to fetch detailed information about golf courses based on the user's location or search query. Built with React and styled with CSS, Fairway Finder offers a seamless and responsive user experience.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Geolocation-based Search**: Automatically fetches the nearest golf courses based on the user's location.
+- **Search by Query**: Allows users to search for golf courses by name or club name.
+- **Detailed Course Information**: Displays the name, address, city, and state of the golf courses.
+- **Responsive Design**: Ensures a seamless experience across different devices and screen sizes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: A JavaScript library for building user interfaces.
+- **CSS**: Cascading Style Sheets for styling the application.
+- **Golf Course API**: An API to fetch information about golf courses.
+- **Geolocation API**: A web API to get the user's location.
 
-### `npm test`
+## Install Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ **Node.js**: Ensure you have Node.js installed on your machine. You can download it from [nodejs.org](https://nodejs.org/).
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```sh
+   git clone https://github.com/YOUR_GITHUB_USERNAME/Fairway-Finder.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Navigate to the project directory**:
+        
+        cd Fairway-Finder
 
-### `npm run eject`
+3. **Install the dependencies**:
+        
+        npm Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Create a .env file**:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+        Create a .env file in the root of your project and add your API key:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+        "REACT_APP_GOLF_API_KEY=GPW6LA6POJGFPTBC7INJNUAOHM"
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Running the Application**
 
-## Learn More
+Start the development server: 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    NPM Start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Open your browser and navigate to http://localhost:3000 to see the application in action.
