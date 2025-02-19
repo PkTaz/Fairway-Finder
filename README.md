@@ -39,7 +39,7 @@ Fairway Finder is a web application designed to help golf enthusiasts find golf 
 
 4. **Create a .env file**:
 
-        Create a .env file in the root of your project and add your API key:
+   Create a .env file in the root of your project and add your API key:
 
         "REACT_APP_GOLF_API_KEY=GPW6LA6POJGFPTBC7INJNUAOHM"
 
