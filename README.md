@@ -47,6 +47,6 @@ Fairway Finder is a web application designed to help golf enthusiasts find golf 
 
 Start the development server: 
 
-    NPM Start
+    npm start
 
 Open your browser and navigate to http://localhost:3000 to see the application in action.
