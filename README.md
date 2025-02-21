@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# Fairway-Finder
-=======
+
 # Fairway Finder
 
 ![Fairway Finder Logo](public/assets/ff-primary.png)
