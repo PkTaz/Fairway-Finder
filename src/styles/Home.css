@@ -1,0 +1,95 @@
+.home-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 1) 95%), url('/public/assets/background.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    z-index: -1; /* Ensure the background is behind other content */
+
+
+}
+
+.home-content {
+    position: relative;
+    z-index: 1; /* Ensure the content is above the background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ensure it takes the full viewport height */
+    padding: 20px;
+    text-align: center; /* Center text content */
+    }
+
+.logo {
+    padding-top: 75px;
+    margin: 0;
+}
+
+.h-title {
+    font-size: 3em; /* Adjust this value to make the font size larger */
+    margin: 0;
+}
+
+.search-form {
+    margin-top: 15px;
+margin-left: -275px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200%; /* Make the search bar longer */
+    }
+
+.search-icon {
+    color: white;
+    background-color: gray; /* Set the background color of the icon */
+    padding: 5px;
+    border-radius: 50%; /* Make the icon background circular */
+    margin-right: 10px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    flex: 1;
+}
+
+.search-bar input::placeholder {
+    color: gray;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.course-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+}
+
+.course-card h2 {
+    margin: 0 0 10px 0;
+}
+
+.course-card p {
+    margin: 5px 0;
+}
+
